@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "start": "node ./scripts/start.js"
+  },
+  "workspaces": [
+    "package/*"
+  ],
+  "dependencies": {
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "lerna": "^8.1.2"
+  }
+}
